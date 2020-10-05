@@ -77,9 +77,9 @@ server.post('/auth/login', (req, res) => {
       res.status(status).json({status, message})
     }
   })
-
+  const port = process.env.PORT || 3000;
   server.use(router)
 
-server.listen(8080, () => {
+server.listen(port, () => {
   console.log('Run Auth API Server')
 })
