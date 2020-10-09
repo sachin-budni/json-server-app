@@ -21,7 +21,7 @@ const jsonServer = require('json-server')
 const jwt = require('jsonwebtoken')
 
 const server = jsonServer.create()
-const router = jsonServer.router('./db.json')
+const router = jsonServer.router('./course.json')
 const userdb = JSON.parse(fs.readFileSync('./users.json', 'UTF-8'));
 server.use(jsonServer.defaults());
 server.use(bodyParser.urlencoded({extended: true}))
