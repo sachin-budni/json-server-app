@@ -1,67 +1,71 @@
 {
-  "VBA" : {
-    "hour" : "40 - 50",
-    "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/VBA.svg?alt=media&token=1f895008-caff-4af1-abaf-f31b226edc0f",
-    "name" : "VBA (Macros)",
-    "order" : 2,
-    "route" : "VBA",
-    "sal" : "₹4.5"
-  },
-  "aws" : {
-    "hour" : "25 - 35",
-    "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/AWS.svg?alt=media&token=7735f13b-64e9-46bf-a01f-2d82bebfddb1",
-    "name" : "AWS(Amazon Web Service)",
-    "order" : "8",
-    "route" : "aws"
-  },
-  "datascience" : {
-    "hour" : "50 - 60",
-    "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/courses%2Fdatascience.svg?alt=media&token=8e819d7f-85f1-4f73-9d52-805ab279e4dd",
-    "name" : "Data Science",
-    "order" : "5",
-    "route" : "datascience"
-  },
-  "excel" : {
-    "hour" : "30 - 40",
-    "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/Excel.svg?alt=media&token=c9160b4b-76bf-4edf-8c47-214e68faa3ac",
-    "name" : "Basics to Advanced Excel",
-    "order" : 1,
-    "route" : "excel",
-    "sal" : "₹2.50"
-  },
-  "powerbi" : {
-    "hour" : "30 - 35",
-    "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/PowerBI.svg?alt=media&token=4a52cd86-a430-4b2a-8923-a2a5eec8e2c8",
-    "name" : "Power BI",
-    "order" : 4,
-    "route" : "powerbi"
-  },
-  "python" : {
-    "hour" : "30 - 40",
-    "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/courses%2Fpython%20(1).svg?alt=media&token=e7f7d9f6-4b9e-4ed2-b41b-196be81a731a",
-    "name" : "Core Python",
-    "order" : "6",
-    "route" : "python"
-  },
-  "sql" : {
-    "hour" : "30 - 40",
-    "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/SQL.svg?alt=media&token=180b029e-11f7-4324-9dd1-e4308378dfe4",
-    "name" : "SQL for Data Analysis",
-    "order" : 3,
-    "route" : "sql"
-  },
-  "tableau" : {
-    "hour" : "35 - 40",
-    "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/courses%2FTableau.svg?alt=media&token=7dca5f54-c980-4ba6-83e5-cf9d035d29b0",
-    "name" : "Tableau",
-    "order" : "7",
-    "route" : "tableau"
-  },
-  "tally" : {
-    "hour" : "35 - 40",
-    "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/Tally.svg?alt=media&token=82fac9f3-c769-43b0-aba1-a32285b26fe7",
-    "name" : "Tally For GST",
-    "order" : "9",
-    "route" : "tally"
-  }
+  "courses" : [
+    {
+      "hour" : "40 - 50",
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/VBA.svg?alt=media&token=1f895008-caff-4af1-abaf-f31b226edc0f",
+      "name" : "VBA (Macros)",
+      "order" : 2,
+      "route" : "VBA",
+      "sal" : "₹4.5"
+    },
+    {
+      "hour" : "25 - 35",
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/AWS.svg?alt=media&token=7735f13b-64e9-46bf-a01f-2d82bebfddb1",
+      "name" : "AWS(Amazon Web Service)",
+      "order" : "8",
+      "route" : "aws"
+    },
+    {
+      "hour" : "50 - 60",
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/courses%2Fdatascience.svg?alt=media&token=8e819d7f-85f1-4f73-9d52-805ab279e4dd",
+      "name" : "Data Science",
+      "order" : "5",
+      "route" : "datascience"
+    },
+    {
+      "hour" : "30 - 40",
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/Excel.svg?alt=media&token=c9160b4b-76bf-4edf-8c47-214e68faa3ac",
+      "name" : "Basics to Advanced Excel",
+      "order" : 1,
+      "route" : "excel",
+      "sal" : "₹2.50"
+    },
+    {
+      "hour" : "30 - 35",
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/PowerBI.svg?alt=media&token=4a52cd86-a430-4b2a-8923-a2a5eec8e2c8",
+      "name" : "Power BI",
+      "order" : 4,
+      "route" : "powerbi"
+    },
+    {
+      "hour" : "30 - 40",
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/courses%2Fpython%20(1).svg?alt=media&token=e7f7d9f6-4b9e-4ed2-b41b-196be81a731a",
+      "name" : "Core Python",
+      "order" : "6",
+      "route" : "python"
+    },
+    "sql" : {
+      "hour" : "30 - 40",
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/SQL.svg?alt=media&token=180b029e-11f7-4324-9dd1-e4308378dfe4",
+      "name" : "SQL for Data Analysis",
+      "order" : 3,
+      "route" : "sql"
+    },
+    {
+      "hour" : "35 - 40",
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/courses%2FTableau.svg?alt=media&token=7dca5f54-c980-4ba6-83e5-cf9d035d29b0",
+      "name" : "Tableau",
+      "order" : "7",
+      "route" : "tableau"
+    },
+    {
+      "hour" : "35 - 40",
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/Tally.svg?alt=media&token=82fac9f3-c769-43b0-aba1-a32285b26fe7",
+      "name" : "Tally For GST",
+      "order" : "9",
+      "route" : "tally"
+    }
+  ],
+  "sylabus": [],
+  "review": []
 }
