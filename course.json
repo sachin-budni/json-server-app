@@ -44,7 +44,7 @@
       "order" : "6",
       "route" : "python"
     },
-    "sql" : {
+    {
       "hour" : "30 - 40",
       "icon" : "https://firebasestorage.googleapis.com/v0/b/tracker-c3f1e.appspot.com/o/SQL.svg?alt=media&token=180b029e-11f7-4324-9dd1-e4308378dfe4",
       "name" : "SQL for Data Analysis",
